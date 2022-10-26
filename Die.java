@@ -14,8 +14,7 @@ public class Die
     roll of the die.
     @param numSides The number of sides for this die.
   */
-  public Die(int numSides)
-  {
+  public Die(int numSides){
     sides = numSides;
     roll();
   }
@@ -24,8 +23,7 @@ public class Die
     The roll method simulates the rolling of
     the die.
   */
-  public void roll()
-  {
+  public void roll(){
     // Create a Random object.
     Random rand = new Random();
     // Get a random value for the die.
@@ -36,8 +34,7 @@ public class Die
     getSides method
     @return The number of sides for this die.
   */
-  public int getSides()
-  {
+  public int getSides(){
     return sides;
   }
 
@@ -45,8 +42,7 @@ public class Die
     getValue method
     @return The value of the die.
   */
-  public int getValue()
-  {
+  public int getValue(){
     return value;
   }
 }
